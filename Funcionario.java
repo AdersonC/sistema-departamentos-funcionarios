@@ -1,5 +1,3 @@
-package exercicios.DesafioOracle;
-
 public class Funcionario {
 
    private String nome;
