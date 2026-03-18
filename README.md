@@ -1,58 +1,105 @@
-# Sistema de Gerenciamento de Funcionários
+# 👨‍💼 Employee Management System
 
-Este projeto foi desenvolvido para praticar conceitos fundamentais da **Programação Orientada a Objetos (POO)** utilizando a linguagem **Java**.
+A Java-based application developed to practice **Object-Oriented Programming (OOP)** concepts by simulating a simple **employee and department management system**.
 
-O sistema simula um gerenciamento simples de **funcionários e departamentos**, onde cada funcionário é associado a um departamento específico.
+Each employee is associated with a specific department, demonstrating relationships between objects and structured data handling.
 
 ---
 
-## Tecnologias utilizadas
+## 🚀 Features
+
+* Create and manage employees
+* Associate employees with departments
+* Organize employees by department
+* Retrieve departments using identifiers
+* Structured and modular code organization
+
+---
+
+## 🛠️ Technologies
 
 * Java
-* Programação Orientada a Objetos (POO)
+* Object-Oriented Programming (OOP)
 
 ---
 
-## Conceitos aplicados
+## 🧠 Concepts Applied
 
-Neste projeto foram utilizados diversos conceitos importantes de desenvolvimento em Java:
+This project applies several important software development concepts:
 
-* Classes e Objetos
-* Encapsulamento
-* Construtores
-* Coleções (`ArrayList`)
-* Estrutura de dados (`Map`)
-* Organização de responsabilidades entre classes
-
----
-
-## Estrutura do projeto
-
-* **Main.java**
-  Classe principal responsável pela execução do sistema.
-
-* **Funcionario.java**
-  Representa um funcionário contendo nome e número do departamento.
-
-* **Departamento.java**
-  Representa um departamento e mantém uma lista de funcionários associados.
-
-* **EncontrarDepartamento.java**
-  Classe responsável por localizar e retornar departamentos com base no número informado.
+* Classes and Objects
+* Encapsulation
+* Constructors
+* Collections (`ArrayList`)
+* Data Structures (`Map`)
+* Separation of responsibilities
 
 ---
 
-## Objetivo do projeto
+## 🖥️ Example Output
 
-Este projeto foi desenvolvido com o objetivo de:
-
-* Praticar programação orientada a objetos
-* Aprender a organizar classes em um sistema simples
-* Trabalhar com coleções e estrutura de dados em Java
+```text
+Funcionário adicionado com sucesso!
+Departamento criado!
+Funcionário associado ao departamento.
+```
 
 ---
 
-## Autor
+## 📁 Project Structure
+
+```text
+src/
+ ├── Main.java
+ ├── Funcionario.java
+ ├── Departamento.java
+ └── EncontrarDepartamento.java
+```
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/AdersonC/department-management-system.git
+```
+
+2. Open the project in a Java IDE
+   (IntelliJ, Eclipse, or VS Code)
+
+3. Run the main class
+
+```bash
+Main.java
+```
+
+---
+
+## 🎯 Purpose
+
+This project was created to:
+
+* Practice Object-Oriented Programming
+* Improve code organization skills
+* Work with collections and data structures in Java
+
+---
+
+## 🔮 Future Improvements
+
+* Refactor project structure using `model` and `service` layers
+* Improve scalability and organization
+* Add data persistence
+* Create a REST API version of the system
+
+---
+
+## 👤 Author
 
 Aderson
-Estudante de Engenharia de Software
+Software Engineering Student
+
+---
+
